@@ -29,7 +29,7 @@
  
 
             <div class="input-section">
-                <input id="todo-input" type="text" placeholder="📑 Add your todo here.."
+                <input id="todo-input" type="text" placeholder="📑 Ajouter une activité ici.."
                     class="input w-full max-w-xs" />
                 <button id="add-button" class="btn btn-add ">
                     <i class="bx bx-plus bx-sm"></i>
@@ -43,7 +43,7 @@
 
        
             <button id="delete-all" class="btn btn-ghost delete-all-btn">
-                Delete All
+                Supprimer tout
             </button>
 
     <button id="save-button" class="btn btn-ghost save-btn">Enregistrer</button>
@@ -53,23 +53,14 @@
         <ul id="all-todos" class="todos-list"></ul>
 
 
-        <!-- dropdown throgh which we can apply filters -->
-        <div class="filters">
-            <div class="dropdown">
-                <button class="dropbtn">Filter</button>
-                <div class="dropdown-content">
-                    <a href="#" id="all">All</a>
-                    <a href="#" id="rem">Pending</a>
-                    <a href="#" id="com">Completed</a>
-                </div>
-            </div>
+
 
             <!-- value showing completed task and all -->
             <div class="completed-task">
-                <p>Completed: <span id="c-count">0</span></p>
+                <p>Completé: <span id="c-count">0</span></p>
             </div>
             <div class="remaining-task">
-                <p>Total Tasks: <span id="r-count">0</span></p>
+                <p>Total de tâches: <span id="r-count">0</span></p>
             </div>
         </div>
     </div>
