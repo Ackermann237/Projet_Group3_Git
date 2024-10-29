@@ -264,6 +264,28 @@ dropdown*/
     color: yellowgreen;
   }
 
+/* Pour l'alignement et la disposition */
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Taille et position des logos */
+.logo, .logo2 {
+    width: 100px; /* Ajuste la taille selon tes préférences */
+    height: auto;
+}
+
+.logo {
+    align-self: flex-end; /* Aligne le logo Collège de Paris à gauche */
+}
+
+.logo2 {
+    align-self: flex-end; /* Aligne le logo Keyce à droite */
+}
 
 
 /* Responsive */
