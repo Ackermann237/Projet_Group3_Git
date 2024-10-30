@@ -19,7 +19,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+<<<<<<< HEAD
     background-color: rgb(4, 4, 35);
+=======
+    background-color:black;
+>>>>>>> AMOUGOU_chef
 }
 
 
@@ -32,7 +36,11 @@ body{
     margin: 0 400px;
     min-width: 500px;
     max-width: 1000px;
+<<<<<<< HEAD
     background-image: linear-gradient(aqua, rgb(249, 146, 164));
+=======
+    background-image: linear-gradient(rgb(160, 160, 236), rgb(30, 198, 142));
+>>>>>>> AMOUGOU_chef
     border-radius: 20px;
     padding: 20px;
 }
@@ -264,7 +272,32 @@ dropdown*/
     color: yellowgreen;
   }
 
+<<<<<<< HEAD
 
+=======
+/* Pour l'alignement et la disposition */
+.logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+/* Taille et position des logos */
+.logo, .logo2 {
+    width: 100px; /* Ajuste la taille selon tes préférences */
+    height: auto;
+}
+
+.logo {
+    align-self: flex-end; /* Aligne le logo Collège de Paris à gauche */
+}
+
+.logo2 {
+    align-self: flex-end; /* Aligne le logo Keyce à droite */
+}
+>>>>>>> AMOUGOU_chef
 
 /* Responsive */
 @media only screen and (max-width: 530px) {
@@ -274,6 +307,7 @@ dropdown*/
         min-width: 96%;
     }
 }
+<<<<<<< HEAD
 
 
 
@@ -282,3 +316,5 @@ dropdown*/
 
 
 
+=======
+>>>>>>> AMOUGOU_chef
