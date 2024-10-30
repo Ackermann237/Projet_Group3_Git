@@ -11,7 +11,7 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="to do.png">
 
-    <title>Todolist</title>
+    <title>JOURNAL_QUOTIDIEN</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
                 <img src="./Logo_image/college_paris.jpeg" alt="logo" class="logo">
                 <img src="./Logo_image/logo_keyce.jpeg" alt="logo2" class="logo2">
             </div>
-            <h1>Projet du Groupe 3 sur Github</h1>
+            <h1>AMOUGOU'S DIARIES </h1>
  
 
 
@@ -41,19 +41,16 @@
 
         <div class="todos-filter">
 
-            <button id="delete-selected" class="btn btn-ghost delete-selected-btn">
-                Delete Selected
-            </button>
+       
             <button id="delete-all" class="btn btn-ghost delete-all-btn">
                 Delete All
             </button>
+
+    <button id="save-button" class="btn btn-ghost save-btn">Enregistrer</button>
         </div>
 
-
-        <!-- this is the dynamic content which dds ups all the todos -->
-        <ul id="all-todos" class="todos-list">
-
-        </ul>
+        <div id="alert" class="alert" style="display: none;">La liste a été enregistrée avec succès !</div>
+        <ul id="all-todos" class="todos-list"></ul>
 
 
         <!-- dropdown throgh which we can apply filters -->

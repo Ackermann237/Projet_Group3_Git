@@ -11,7 +11,7 @@ var deleteSButton = document.getElementById("delete-selected")
 //event listners for add and delete
 addButton.addEventListener("click", add)
 deleteAllButton.addEventListener("click", deleteAll)
-deleteSButton.addEventListener("click", deleteS)
+
 
 
 //event listeners for filtersk
@@ -40,6 +40,18 @@ todoInput.addEventListener('keypress', (e) => {
     }
 });
 
+// Charger la liste depuis le localStorage
+function loadTodoList() {
+    const savedList = localStorage.getItem("todoList");
+    if (savedList) {
+        todoList = JSON.parse(savedList);
+        update();
+        addinmain(todoList);
+    }
+}
+
+// Charger la liste de tâches au démarrage
+loadTodoList();
 
 //updates the all the remaining, completed and main list
 function update() {
@@ -165,4 +177,24 @@ function viewRemaining() {
 }
 function viewAll() {
     addinmain(todoList);
+}
+
+// Bouton pour sauvegarder la liste dans le localStorage
+var saveButton = document.getElementById("save-button");
+
+saveButton.addEventListener("click", saveTodoList);
+
+function saveTodoList() {
+    localStorage.setItem("todoList", JSON.stringify(todoList));
+    showAlert("La liste a été enregistrée avec succès !");
+}
+
+// Fonction pour afficher une alerte
+function showAlert(message) {
+    const alertBox = document.getElementById("alert");
+    alertBox.innerText = message;
+    alertBox.style.display = "block";
+    setTimeout(() => {
+        alertBox.style.display = "none";
+    }, 3000);
 }
