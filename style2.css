@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 :root{
@@ -230,6 +231,7 @@ main .analyse{
     gap: 1.6rem;
 }
 
+
 main .analyse > div{
     background-color: var(--color-white);
     padding: var(--card-padding);
@@ -380,6 +382,7 @@ main .recent-orders a{
 
 .right-section{
     margin-top: 1.4rem;
+
 }
 
 .right-section .nav{
@@ -430,6 +433,8 @@ main .recent-orders a{
     border-radius: 50%;
     overflow: hidden;
 }
+
+
 
 .right-section .user-profile{
     display: flex;
@@ -633,7 +638,11 @@ main .recent-orders a{
         height: 3.4rem;
     }
 
+
     aside .sidebar a:last-child{
+
+
+aside .sidebar a:last-child{
         position: absolute;
         bottom: 5rem;
     }
@@ -705,4 +714,400 @@ main .recent-orders a{
         font-size: 2rem;
     }
 
+
 }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contprofile {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+  }
+  .contprofile h6 {
+    font-size: 1rem;
+    line-height: 1.625;
+    font-weight: 600;
+    color: #344767;
+  }
+  .contprofile .blockprof {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    padding-top: 40px;
+    align-items: center;
+  }
+  .contprofile .blockprof .pp2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: url("./Logo_image/pp2.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .contprofile .blockprof .pp2 .divisecur {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+  }
+  .contprofile .blockprof .pp2 .divisecur .secur {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    -webkit-backdrop-filter: saturate(200%) blur(30px);
+            backdrop-filter: saturate(200%) blur(30px);
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    border: solid 3px #fff;
+    color: #344767;
+  }
+  .contprofile .blockprof .divpp {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+    position: absolute;
+    padding: 10px;
+    bottom: -30px;
+    border-radius: 20px;
+    -webkit-backdrop-filter: saturate(200%) blur(30px);
+            backdrop-filter: saturate(200%) blur(30px);
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    box-shadow: inset 0 0px 1px 1px rgba(254, 254, 254, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  .contprofile .blockprof .divpp .blocpp {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  .contprofile .blockprof .divpp .blocpp .pp {
+    width: 80px;
+    height: 70px;
+    border-radius: 15px;
+    margin-left: -8%;
+  }
+  .contprofile .blockprof .divpp .blocpp .divnom .nom {
+    font-size: 1.25rem;
+    line-height: 1.375;
+    font-family: sans-serif;
+    color: #344767;
+  }
+  .contprofile .blockprof .divpp .blocpp .divmenu {
+    display: flex;
+  }
+  .contprofile .blockprof .divpp .blocpp .divmenu .menuop {
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
+  }
+  .contprofile .blockprof .divpp .blocpp .divmenu .menuop h6 span i {
+    margin: 5px;
+  }
+  .contprofile .blockprof .divpp .bcp1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contprofile .blockprof .divpp .bcp2 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+  }
+  .contprofile .bprof1 {
+    height: 300px;
+  }
+  .contprofile .bprof2 {
+    display: flex;
+    flex-grow: 1;
+    padding-bottom: 20px;
+  }
+  .contprofile .bprof2 .constinfo {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contprofile .bprof2 .constinfo .div1info {
+    flex: 0 0 auto;
+    width: 33.333333%;
+    height: 100%;
+    padding: 10px;
+  }
+  .contprofile .bprof2 .constinfo .div1info .scroll1 {
+    height: 420px;
+    position: relative;
+    overflow: auto;
+    scrollbar-width: none;
+  }
+  .contprofile .bprof2 .constinfo .div1info .scroll1 .divtitre {
+    margin-top: 20px;
+  }
+  .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    -webkit-backdrop-filter: saturate(200%) blur(30px);
+            backdrop-filter: saturate(200%) blur(30px);
+  }
+  .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .divpass {
+    display: flex;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .divpass .chmpass {
+    padding: 9px;
+    width: 100%;
+    border-radius: 9px;
+    height: 30px;
+    outline: none;
+    border: solid 2px #eeeeee;
+    box-shadow: inset 0 0px 1px 1px rgba(254, 254, 254, 0.9), 0 20px 27px 0 rgba(0, 0, 0, 0.05) !important;
+  }
+  .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .divpass .btnchmps {
+    margin-left: 5px;
+    padding: 9px;
+    color: #707492;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    font-weight: bold;
+    height: 30px;
+    background-image: linear-gradient(310deg, #141727 0%, #3A416F 100%);
+  }
+  .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .infochmpass {
+    position: absolute;
+    width: 70%;
+    border-radius: 10px;
+    top: 20px;
+    color: white;
+    padding: 20px;
+    background: rgba(58, 65, 111, 0.5960784314);
+  }
+  .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .infochmpass p {
+    text-align: center;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo {
+    background-color: white;
+    padding: 20px;
+    width: 100%;
+    min-height: 420px;
+    border-radius: 20px;
+    box-shadow: 0 20px 27px 0 rgba(0, 0, 0, 0.05);
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .inputinfo {
+    width: 100%;
+    height: 30px;
+    padding: 9px;
+    border: solid 2px #eeeeee;
+    border-radius: 4px;
+    outline: none;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divtextinfo .hr {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin: 1rem 0;
+    color: inherit;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divtextinfo .evelinfo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divtextinfo .evelinfo p {
+    margin-left: 7px;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divtextinfo .evelinfo .diviconreseau {
+    display: flex;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divtextinfo .evelinfo .diviconreseau .iconreseaux {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .Reseaux .divaddsociaux {
+    display: flex;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .Reseaux .divaddsociaux .social {
+    background-color: #344767;
+    border-radius: 7px;
+    padding: 5px;
+    font-weight: 0;
+    font-size: 0.75rem;
+    margin: 5px;
+    -webkit-backdrop-filter: saturate(200%) blur(30px);
+            backdrop-filter: saturate(200%) blur(30px);
+    box-shadow: 1px 8px 4px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divparam .divoptions {
+    display: block;
+    margin-top: 20px;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divparam .divoptions .divcheck {
+    position: relative;
+    display: inline-block;
+    width: 46px;
+    height: 19px;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divparam .divoptions .divcheck .checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divparam .divoptions .divcheck .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 34px;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divparam .divoptions .divcheck .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divparam .divoptions .divcheck .checkbox:checked + .slider {
+    background-color: #344767;
+  }
+  .contprofile .bprof2 .constinfo .div1info .divinfo .divparam .divoptions .divcheck .checkbox:checked + .slider:before {
+    transform: translateX(26px);
+  }
+  
+  @media (max-width: 576px) {
+    /* Styles pour les écrans jusqu'à 576px de large */
+    .contprofile .blockprof .divpp {
+      bottom: -130px;
+    }
+    .contprofile .blockprof .divpp .blocpp3 {
+      margin-right: 20px;
+    }
+    .contprofile .blockprof .divpp .blocpp {
+      width: pad;
+    }
+    .contprofile .blockprof .divpp .blocpp .divmenu {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .contprofile .blockprof .divpp .blocpp .divmenu .menuop {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .contprofile .bprof2 .constinfo {
+      width: 100%;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .contprofile .bprof2 .constinfo .div1info {
+      flex: 0 0 auto;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+    }
+    .contprofile .bprof2 .constinfo .div1info .divinfo {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .contprofile .blockprof .divpp .bcp2 {
+      justify-content: center;
+    }
+  }
+  @media (min-width: 577px) and (max-width: 768px) {
+    /* Styles pour les écrans de 577px à 768px de large */
+    .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .divpass {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+    .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .divpass .btnchmps {
+      margin-left: 0px;
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    /* Styles pour les écrans de 769px à 992px de large */
+    .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .divpass {
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+    }
+    .contprofile .bprof2 .constinfo .div1info .scroll1 .contmpass .divpass .btnchmps {
+      margin-left: 0px;
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+
+  .main {
+    position: absolute;
+    width: calc(100% - 300px);
+    left: 300px;
+    min-height: 100vh;
+    background: #f8f9fa;
+    transition: var(--white);
+    transition: 0.5s;
+  }
+  
+  .main.active {
+    width: calc(100% - 80px);
+    left: 80px;
+  }
+  
