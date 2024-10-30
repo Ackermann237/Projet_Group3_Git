@@ -7,11 +7,31 @@ var deleteAllButton = document.getElementById("delete-all")
 var allTodos = document.getElementById("all-todos");
 var deleteSButton = document.getElementById("delete-selected")
 
+<<<<<<< HEAD
+// Charger la liste depuis le localStorage
+function loadTodoList() {
+    const savedList = localStorage.getItem("todoList");
+    if (savedList) {
+        todoList = JSON.parse(savedList);
+        update();
+        addinmain(todoList);
+    }
+}
+
+// Charger la liste de tâches au démarrage
+loadTodoList();
+
+=======
+>>>>>>> AMOUGOU_chef
 
 //event listners for add and delete
 addButton.addEventListener("click", add)
 deleteAllButton.addEventListener("click", deleteAll)
+<<<<<<< HEAD
 deleteSButton.addEventListener("click", deleteS)
+=======
+
+>>>>>>> AMOUGOU_chef
 
 
 //event listeners for filtersk
@@ -40,6 +60,21 @@ todoInput.addEventListener('keypress', (e) => {
     }
 });
 
+<<<<<<< HEAD
+=======
+// Charger la liste depuis le localStorage
+function loadTodoList() {
+    const savedList = localStorage.getItem("todoList");
+    if (savedList) {
+        todoList = JSON.parse(savedList);
+        update();
+        addinmain(todoList);
+    }
+}
+
+// Charger la liste de tâches au démarrage
+loadTodoList();
+>>>>>>> AMOUGOU_chef
 
 //updates the all the remaining, completed and main list
 function update() {
@@ -96,6 +131,33 @@ function addinmain(todoList) {
     });
 }
 
+<<<<<<< HEAD
+function saveList() {
+    // Enregistrer todoList dans localStorage
+    localStorage.setItem("todoList", JSON.stringify(todoList));
+
+    // Afficher une alerte de succès
+    alertBox.style.display = "block";
+    setTimeout(() => {
+        alertBox.style.display = "none";
+    }, 2000); // Cache l'alerte après 2 secondes
+}
+
+// Charger les tâches du localStorage au chargement de la page
+function loadList() {
+    const savedTodos = JSON.parse(localStorage.getItem("todoList"));
+    if (savedTodos) {
+        todoList = savedTodos;
+        update();
+        addinmain(todoList);
+    }
+}
+
+// Charger la liste au démarrage
+loadList();
+
+=======
+>>>>>>> AMOUGOU_chef
 
 //deletes and indiviual task and update all the list
 function deleteTodo(e) {
@@ -165,4 +227,27 @@ function viewRemaining() {
 }
 function viewAll() {
     addinmain(todoList);
+}
+<<<<<<< HEAD
+=======
+
+>>>>>>> AMOUGOU_chef
+// Bouton pour sauvegarder la liste dans le localStorage
+var saveButton = document.getElementById("save-button");
+
+saveButton.addEventListener("click", saveTodoList);
+
+function saveTodoList() {
+    localStorage.setItem("todoList", JSON.stringify(todoList));
+    showAlert("La liste a été enregistrée avec succès !");
+}
+
+// Fonction pour afficher une alerte
+function showAlert(message) {
+    const alertBox = document.getElementById("alert");
+    alertBox.innerText = message;
+    alertBox.style.display = "block";
+    setTimeout(() => {
+        alertBox.style.display = "none";
+    }, 3000);
 }

@@ -19,7 +19,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(4, 4, 35);
+
+    background-color:black;
+
 }
 
 
@@ -32,7 +34,9 @@ body{
     margin: 0 400px;
     min-width: 500px;
     max-width: 1000px;
-    background-image: linear-gradient(aqua, rgb(249, 146, 164));
+
+    background-image: linear-gradient(rgb(160, 160, 236), rgb(30, 198, 142));
+
     border-radius: 20px;
     padding: 20px;
 }
@@ -264,6 +268,7 @@ dropdown*/
     color: yellowgreen;
   }
 
+
 /* Pour l'alignement et la disposition */
 .logo-container {
     display: flex;
@@ -296,3 +301,13 @@ dropdown*/
         min-width: 96%;
     }
 }
+
+
+
+
+
+
+
+
+
+
